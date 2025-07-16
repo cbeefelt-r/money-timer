@@ -22,7 +22,7 @@ const App: React.FC = () => {
   const [isRunning, setIsRunning] = useState(false);
   const [seconds, setSeconds] = useState(0);
   const [rate, setRate] = useState(42); // default $42/hr
-  const [isStopped, setIsStopped] = useState(false);
+  git push -u origin main  const [isStopped, setIsStopped] = useState(false);
   // Use number type for intervalRef to avoid NodeJS namespace issue
   const intervalRef = useRef<number | null>(null);
 
