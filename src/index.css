@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: 'Quicksand', 'Segoe UI', sans-serif;
+  background: #f6faff;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
